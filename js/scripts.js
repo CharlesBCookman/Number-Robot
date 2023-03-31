@@ -1,4 +1,7 @@
 function robotFunction(number){
+  if(number === null){
+    return "Um... null isn't a number... can you give me a number?";
+  } else 
   if(isFinite(number) === false){
     return [["Beep!"], ["Boop!"], ["Won't you be my neighbor?"], ["Infinity!"]].join(", ");
   } else if(number < 0){
