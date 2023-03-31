@@ -1,7 +1,5 @@
 function robotFunction(number){
-  if(isNaN(number)){
-    return "Error-Error-Error This is NOT a Number over over over over OVERHEATING!!!! Placing feet into pool, feeding fish, taking off sweater. Taking off slippers and putting on shoes and taking a long walk. (Five minutes later) Getting water and snack. Please input a number.";
-  } else if(isFinite(number) === false){
+  if(isFinite(number) === false){
     return [["Beep!"], ["Boop!"], ["Won't you be my neighbor?"], ["Infinity!"]].join(", ");
   } else if(number < 0){
     number = (number * -1);
@@ -24,3 +22,4 @@ function robotFunction(number){
     return output;
   }
 }
+

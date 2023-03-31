@@ -34,3 +34,8 @@ Test: Check input for infinity and gives a set output for it
 Code:
 robotFunction(2/0);
 Expected Output: "Beep!", "Boop!", "Won't you be my neighbor?", "Infinity!"
+
+Test: Check for null value and give output for it
+Code:
+robotFunction(null);
+Expected Output: "Um... null isn't a number... can you give me a number?"
