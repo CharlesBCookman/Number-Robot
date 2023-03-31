@@ -1,13 +1,24 @@
 body {
   display: flex;
   justify-content: center;
+  background-image: url("../svgs/cityscape1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
 }
 
-#main {
+#robot-head {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  background-image: ;
+  background-image: url("../svgs/Robot_Head.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  background-position: center;
 }
 
 h1 {
@@ -17,6 +28,17 @@ h1 {
 }
 
 form {
-  padding-top: 2vh;
+  display: flex;
+  margin: 0 auto;
+}
+
+#display {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+}
+
+p {
+  display: flex;
   margin: 0 auto;
 }
