@@ -33,4 +33,4 @@ Expected Output: "Error-Error-Error This is NOT a Number over over over over OVE
 Test: Check input for infinity and gives a set output for it
 Code:
 robotFunction(2/0);
-Expected Output: "Beep!", "Boop!", "Won't you be my neighbor?", "infinity"
+Expected Output: "Beep!", "Boop!", "Won't you be my neighbor?", "Infinity!"
