@@ -23,4 +23,9 @@ Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8
 Test: Negative Numbers are turned positive
 Code:
 robotFunction(-13);
-Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"
+Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?
+
+Test: Check for NaN input and gives error to output
+Code:
+robotFunction("something")
+Expected Output: "something is NOT a number"

@@ -1,4 +1,9 @@
 function robotFunction(number){
+  if(number < 0){
+    number = (number * -1);
+  } else {
+    //NOTHING!!! MUAH HA HA HA HA HA!!!
+  }
   let output = ""
   let array = []
   for(let i = 0; i <= number; i++){
