@@ -26,3 +26,12 @@ function robotFunction(number){
   }
 }
 
+window.addEventListener("load", () => {
+  const inputForm = document.querySelector("form");
+  const inputElement = document.querySelector("#input");
+  const output = document.querySelector("#output");
+  inputForm.addEventListener("submit", (event) => {
+    output.innerText = robotFunction(inputElement.value);
+    event.preventDefault();
+  })
+})
