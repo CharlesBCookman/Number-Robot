@@ -1,4 +1,7 @@
 function robotFunction(number){
+  // if(number === NaN){
+  //   return (number + " is NOT a Number")
+  // } else 
   if(number < 0){
     number = (number * -1);
   } else {

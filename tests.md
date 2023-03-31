@@ -27,5 +27,5 @@ Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8
 
 Test: Check for NaN input and gives error to output
 Code:
-robotFunction("something")
-Expected Output: "something is NOT a number"
+robotFunction(NaN)
+Expected Output: "Error-Error-Error This is not a Number or or or or OVERHEATING!!!! Placing feet into pool, feeding fish, taking off sweater. Taking off slippers and putting on shoes and taking a long walk. (Five minutes later) Getting water and snack. Please input a number."
