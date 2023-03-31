@@ -1,8 +1,22 @@
 body {
   display: flex;
-  
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-image: ;
+}
+
+h1 {
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
 }
 
 form {
-  
+  padding-top: 2vh;
+  margin: 0 auto;
 }
