@@ -14,3 +14,8 @@ Test: Numbers that include 2 turn to "Boop!" with precedence over "Beep!"
 Code:
 robotFunction(12);
 Expected Output: 0, "Beep!", "Boop!", 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!"
+
+Test: Numbers that include 3 turn into "Won't you be my neighbor?" with precedence over 2 and 1
+Code:
+robotFunction(13);
+Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"
