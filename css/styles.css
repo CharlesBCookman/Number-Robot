@@ -8,12 +8,12 @@ body {
   width: 100vw;
   height: 100vh;
   flex-direction: column;
+  margin: 0;
 }
 
 #robot-head {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   background-image: url("../svgs/Robot_Head.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -23,13 +23,19 @@ body {
 
 h1 {
   display: flex;
-  flex: 1;
-  margin: 0 auto;
+  margin: 1vw auto;
+  background-color: whitesmoke;
+  border: .5vw inset slategray
 }
 
 form {
   display: flex;
   margin: 0 auto;
+  background-color: slategrey;
+  width: fit-content;
+  border: .5vw inset grey;
+  flex-direction: column;
+  color: white;  
 }
 
 #display {
@@ -41,4 +47,13 @@ form {
 p {
   display: flex;
   margin: 0 auto;
+  background-color: slategrey;
+  color: aliceblue;
+  border: .5vw solid rgb(53, 50, 50) ; 
+  text-align: center;
+  border-radius: 5px;
+  min-height: 10vh;
+  min-width: 50vw;
+  position: relative;
+  max-height: fit-content;
 }
